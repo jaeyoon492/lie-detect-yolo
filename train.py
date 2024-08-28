@@ -2,7 +2,7 @@ from ultralytics import YOLO
 
 def train_model():
     # 모델 생성 (YOLOv8n - 가장 작은 모델을 사용)
-    model = YOLO("yolov8m.pt")  # 또는 yolov8s.pt, yolov8m.pt, yolov8l.pt, yolov8x.pt
+    model = YOLO("model/yolov8m.pt")  # 또는 yolov8s.pt, yolov8m.pt, yolov8l.pt, yolov8x.pt
 
     # 모델 학습
     model.train(data="dataset/dataset.yaml", epochs=100, imgsz=640)

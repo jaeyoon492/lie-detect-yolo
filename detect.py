@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # 옵션 설정
 weights_path = 'runs/detect/train8/weights/best.pt'  # 학습된 모델의 경로
-source_path = 'images/click3.jpg'  # 검출할 이미지 또는 비디오 파일 경로
+source_path = 'test-files/click3.jpg'  # 검출할 이미지 또는 비디오 파일 경로
 
 model = YOLO(weights_path)
 

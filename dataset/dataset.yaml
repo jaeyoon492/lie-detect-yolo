@@ -1,5 +1,0 @@
-train: C:\Users\ofu\Documents\dev\train-lie\dataset\train\images
-val: C:\Users\ofu\Documents\dev\train-lie\dataset\valid\images
-
-nc: 6
-names: ['0', '1', 'captcha', 'color', 'origin', 'star']

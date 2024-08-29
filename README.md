@@ -7,7 +7,7 @@ This project is a custom YOLOv8 model trained to detect [MapleStory Lie Detector
 ## Model Details
 
 - **Model Type**: YOLOv8
-- **Training Dataset**: [https://universe.roboflow.com/andy-de-gheldere-fmqy2/ldldldld/dataset/2]
+- **Training Dataset**: https://universe.roboflow.com/andy-de-gheldere-fmqy2/ldldldld/dataset/2
 - **Number of Classes**: [6]
 - **Classes**: 
   - 0: ['0']
@@ -117,9 +117,16 @@ nvcc --version
 ### 5. Fallback to CPU
 If you are unable to resolve CUDA-related issues, or if you are working in an environment without GPU access, you can modify the code to run on the CPU:
 
-```python
+```pycon
 device = torch.device('cpu')
 model = YOLO("path/to/your/trained_model.pt", device=device)
 
 # Run inference on the CPU
 results = model.predict(source=image, imgsz=640, conf=0.5)
+```
+
+### Test Image Example
+<img src="test-images/click5.jpg">
+
+### Result Image Example
+<img src="detected-images/click5.jpg">

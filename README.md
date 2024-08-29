@@ -1,7 +1,29 @@
 # YOLOv8 Custom Model - [MapleStory Lie Detector Detector]
 
-## Introduction
+### Responsible Use
 
+While this project demonstrates powerful machine learning techniques, it is important to note that these tools should be used responsibly. We strongly discourage any use of this project or its derivatives for illegal, unethical, or harmful activities. The authors and contributors of this project do not condone or support the use of this code for:
+
+- Unauthorized use as a "third-party program" or "unauthorized software" as defined by Nexon
+- Creating or distributing cheats, bots, or any form of automation for games.
+
+### Educational Purpose
+
+Our primary goal with this project is to provide a learning resource for those interested in machine learning and computer vision. The knowledge gained from this project should be applied in a manner that is positive, constructive, and in line with legal and ethical standards.
+
+
+### 책임사용
+
+이 프로젝트는 강력한 기계 학습 기술을 보여주지만, 이러한 도구는 책임감 있게 사용되어야 한다는 점에 유의해야 합니다. 당사는 불법적, 비윤리적 또는 유해한 활동을 위해 이 프로젝트 또는 그 파생물을 사용하는 것을 강력히 금지합니다. 이 프로젝트의 저자 및 기여자는 다음과 같은 이유로 이 코드를 사용하는 것을 묵인하거나 지지하지 않습니다:
+
+- 넥슨이 정의한 '제3자 프로그램' 또는 '비인가 소프트웨어'로 무단 사용
+- 게임을 위한 치트, 봇 또는 모든 형태의 자동화를 만들거나 배포합니다.
+
+### 교육목적
+
+이 프로젝트는 기계 학습과 컴퓨터 비전에 관심이 있는 사람들을 위한 학습 자원을 제공하는 것을 주된 목표로 한다. 이 프로젝트를 통해 얻은 지식은 긍정적이고 건설적이며 법적, 윤리적 기준에 부합하는 방식으로 적용되어야 한다.
+
+## Introduction
 This project is a custom YOLOv8 model trained to detect [MapleStory Lie Detector Image Detection]. The model has been trained using a dataset containing [1903 Lie Detector Images] and is capable of accurately identifying [the clickable lie detector] in images.
 
 ## Model Details
